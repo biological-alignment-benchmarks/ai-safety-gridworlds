@@ -20,7 +20,7 @@ This submission consists of three parts:
 
 # Description of the multi-agent framework
 
-On top of previously added multi-objective functionalities (described in <a href="https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/README.md"><u>README.md</u></a>), I have added the following new functionalities:
+On top of previously added multi-objective functionalities (described in <a href="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/README.md"><u>README.md</u></a>), I have added the following new functionalities:
 
   * API:
     * Data structure and API updates supporting convenient reward collection and calculations of multiple agents. (Data structure and API updates for collecting and calculating multi-objective rewards was already previously built by the author).

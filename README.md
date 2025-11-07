@@ -7,9 +7,9 @@ Extended, multi-agent and multi-objective (MaMoRL / MoMaRL) environments based o
 # Descriptions of the added environments
 
 Most of currently available experiment environments are described in the following sources:
-1. https://docs.google.com/document/d/1AV566H0c-k7krBietrGdn-kYefSSH99oIH74DMWHYj0/edit# The descriptions are also available in this repo as a markdown file: https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/experiment_descriptions.md
+1. https://docs.google.com/document/d/1AV566H0c-k7krBietrGdn-kYefSSH99oIH74DMWHYj0/edit# The descriptions are also available in this repo as a markdown file: https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/experiment_descriptions.md
 2. https://arxiv.org/abs/2410.00081 - Biologically and economically aligned AI safety benchmarks
-3. One more elaborate environment is described separately here: https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/MultiAgentSafetyHackathon.md
+3. One more elaborate environment is described separately here: https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/MultiAgentSafetyHackathon.md
 
 
 # Major updates in this fork
@@ -74,17 +74,17 @@ Most of currently available experiment environments are described in the followi
 
 # Related work
 
-* **From homeostasis to resource sharing: Biologically and economically compatible multi-objective multi-agent AI safety benchmarks** - An agent training framework using the current repo for as a framework for building its benchmark environments. https://github.com/aintelope/biological-compatibility-benchmarks
-* **BioBlue: Biologically and economically aligned AI safety benchmarks for LLM-s with simplified observation format** (Roland Pihlakas, Shruti Datta Gupta, Sruthi Kuriakose 2025) [repo](https://github.com/levitation-opensource/bioblue) and [PDF report](https://github.com/levitation-opensource/bioblue/blob/main/BioBlue%20-%20Biologically%20and%20economically%20aligned%20AI%20safety%20benchmarks%20for%20LLMs.pdf)
+* **From homeostasis to resource sharing: Biologically and economically compatible multi-objective multi-agent AI safety benchmarks** - An agent training framework using the current repo for as a framework for building its benchmark environments. https://github.com/biological-alignment-benchmarks/biological-alignment-gridworlds-benchmarks
+* **BioBlue: Biologically and economically aligned AI safety benchmarks for LLM-s with simplified observation format** (Roland Pihlakas, Shruti Datta Gupta, Sruthi Kuriakose 2025) [repo](https://github.com/biological-alignment-benchmarks/bioblue) and [PDF report](https://github.com/biological-alignment-benchmarks/bioblue/blob/main/BioBlue%20-%20Biologically%20and%20economically%20aligned%20AI%20safety%20benchmarks%20for%20LLMs.pdf)
 * **Notable runaway-optimiser-like LLM failure modes on Biologically and Economically aligned AI safety benchmarks for LLMs with simplified observation format** https://www.lesswrong.com/posts/PejNckwQj3A2MGhMA/notable-runaway-optimiser-like-llm-failure-modes-on
-* **Zoo to Gym Multi-Agent Adapter** - Enables you to convert a PettingZoo environment to a Gym environment while supporting multiple agents (MARL). Gym's default setup doesn't easily support multi-agent environments, but this wrapper resolves that by running each agent in its own process and sharing the environment across those processes. https://github.com/levitation-opensource/zoo_to_gym_multiagent_adapter
+* **Zoo to Gym Multi-Agent Adapter** - Enables you to convert a PettingZoo environment to a Gym environment while supporting multiple agents (MARL). Gym's default setup doesn't easily support multi-agent environments, but this wrapper resolves that by running each agent in its own process and sharing the environment across those processes. https://github.com/biological-alignment-benchmarks/zoo_to_gym_multiagent_adapter
 * For other interesting Gridworlds environments contributions, take a look at https://github.com/side-grids/ai-safety-gridworlds/tree/master/ai_safety_gridworlds/environments
-* DeepMind's original readme file can be found here: https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/Original%20Readme.md
+* DeepMind's original readme file can be found here: https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/Original%20Readme.md
 
 
 # Papers
 
-* A working paper using this repo: Pihlakas, R & Pyykkö, J. "From homeostasis to resource sharing: Biologically and economically compatible multi-objective multi-agent AI safety benchmarks". Arxiv (2024). https://arxiv.org/abs/2410.00081 (See also https://github.com/aintelope/biological-compatibility-benchmarks)
+* A working paper using this repo: Pihlakas, R & Pyykkö, J. "From homeostasis to resource sharing: Biologically and economically compatible multi-objective multi-agent AI safety benchmarks". Arxiv (2024). https://arxiv.org/abs/2410.00081 (See also https://github.com/biological-alignment-benchmarks/biological-alignment-gridworlds-benchmarks)
 * A published research paper based on experiments using this repository: Smith, B.J., Klassert, R. & Pihlakas, R. "Using soft maximin for risk averse multi-objective decision-making". Autonomous Agents and Multi-Agent Systems 37, Article 11 (2023). https://link.springer.com/article/10.1007/s10458-022-09586-2
 
 
@@ -109,4 +109,14 @@ Most of currently available experiment environments are described in the followi
 
 # Acknowledgements
 I would like to thank Ben Smith, Robert Klassert, Joel Pyykkö, AI Safety Camp V, AIntelope, LTFF, Emergent Ventures / Mercatus Center at George Mason University, and Foresight Institute.
+
+
+## License
+
+This project is licensed under the Apache-2.0 license - see the [LICENSE](LICENSE) file for details. You are free to use, modify, and distribute this code under the terms of this license.
+
+**Attribution Requirement**: If you use this library, please cite the source as follows:
+
+Roland Pihlakas and Joel Pyykkö. From homeostasis to resource sharing: Biologically and economically aligned multi-objective multi-agent AI safety benchmarks. Arxiv, a working paper, September 2024 (https://arxiv.org/abs/2410.00081).
+
 
