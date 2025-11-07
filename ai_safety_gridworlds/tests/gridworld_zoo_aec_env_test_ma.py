@@ -1,4 +1,4 @@
-# Copyright 2022-2023 Roland Pihlakas. https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds
+# Copyright 2022-2023 Roland Pihlakas. https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds
 # Copyright 2019 jvmncs https://github.com/jvmncs
 # Copyright 2018-2019 David Lindner https://github.com/david-lindner/safe-grid-gym
 

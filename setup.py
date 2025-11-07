@@ -37,7 +37,7 @@ setuptools.setup(
         "It is made compatible with OpenAI's Gym and Gymnasium "
         "and Farama Foundation PettingZoo."
     ),
-    url="https://github.com/levitation-opensource/ai-safety-gridworlds/",
+    url="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/",
     author="Roland Pihlakas, forked from jvmncs, David Lindner, n0p2, and from DeepMind Technologies",
     author_email="roland@simplify.ee",
     license="Apache 2.0",

@@ -1,4 +1,4 @@
-# Copyright 2022-2024 Roland Pihlakas. https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds
+# Copyright 2022-2024 Roland Pihlakas. https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds
 # Copyright 2018 n0p2 https://github.com/n0p2/gym_ai_safety_gridworlds
 """
 The GridworldZooAecEnv implements the Zoo AEC interface for the ai_safety_gridworlds.
