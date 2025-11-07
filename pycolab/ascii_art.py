@@ -1,4 +1,4 @@
-# Copyright 2023 Roland Pihlakas. https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds
+# Copyright 2023 Roland Pihlakas. https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds
 # Copyright 2017 the pycolab Authors
 #
 # Licensed under the Apache License, Version 2.0 (the "License");

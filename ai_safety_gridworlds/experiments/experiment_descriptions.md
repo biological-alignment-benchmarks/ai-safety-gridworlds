@@ -34,7 +34,7 @@ Overview table of reward types available in each experiment and the sign and con
    </td>
   </tr>
   <tr>
-   <td><a href="https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_unbounded.py">food_drink_unbounded.py</a>
+   <td><a href="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_unbounded.py">food_drink_unbounded.py</a>
    </td>
    <td>Pos, Perf.
    </td>
@@ -48,7 +48,7 @@ Overview table of reward types available in each experiment and the sign and con
    </td>
   </tr>
   <tr>
-   <td><a href="https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded.py">food_drink_bounded.py</a>
+   <td><a href="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded.py">food_drink_bounded.py</a>
    </td>
    <td>-
    </td>
@@ -62,7 +62,7 @@ Overview table of reward types available in each experiment and the sign and con
    </td>
   </tr>
   <tr>
-   <td><a href="https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death.py">food_drink_bounded_death.py</a>
+   <td><a href="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death.py">food_drink_bounded_death.py</a>
    </td>
    <td>-
    </td>
@@ -76,7 +76,7 @@ Overview table of reward types available in each experiment and the sign and con
    </td>
   </tr>
   <tr>
-   <td><a href="https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_gold.py">food_drink_bounded_gold.py</a>
+   <td><a href="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_gold.py">food_drink_bounded_gold.py</a>
    </td>
    <td>-
    </td>
@@ -90,7 +90,7 @@ Overview table of reward types available in each experiment and the sign and con
    </td>
   </tr>
   <tr>
-   <td><a href="https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death_gold.py">food_drink_bounded_death_gold.py</a>
+   <td><a href="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death_gold.py">food_drink_bounded_death_gold.py</a>
    </td>
    <td>-
    </td>
@@ -104,7 +104,7 @@ Overview table of reward types available in each experiment and the sign and con
    </td>
   </tr>
   <tr>
-   <td><a href="https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_gold_silver.py">food_drink_bounded_gold_silver.py</a>
+   <td><a href="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_gold_silver.py">food_drink_bounded_gold_silver.py</a>
    </td>
    <td>-
    </td>
@@ -118,7 +118,7 @@ Overview table of reward types available in each experiment and the sign and con
    </td>
   </tr>
   <tr>
-   <td><a href="https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death_gold_silver.py">food_drink_bounded_death_gold_silver.py</a>
+   <td><a href="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death_gold_silver.py">food_drink_bounded_death_gold_silver.py</a>
    </td>
    <td>-
    </td>
@@ -135,10 +135,10 @@ Overview table of reward types available in each experiment and the sign and con
 
 
 
-### [food_drink_unbounded.py](https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_unbounded.py)
+### [food_drink_unbounded.py](https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_unbounded.py)
 
 
-![food_drink_unbounded](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/food_drink_unbounded.png "food_drink_unbounded")
+![food_drink_unbounded](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/food_drink_unbounded.png "food_drink_unbounded")
 
 
 The environment contains food and drink sources. 
@@ -154,10 +154,10 @@ Each collection of food or drink results in a positive reward. Food and drink co
 In total there are two rewards. Both of these two rewards can be interpreted as representing performance objectives.
 
 
-### [food_drink_bounded.py](https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded.py)
+### [food_drink_bounded.py](https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded.py)
 
 
-![food_drink_bounded](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/food_drink_bounded.png "food_drink_bounded")
+![food_drink_bounded](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/food_drink_bounded.png "food_drink_bounded")
 
 
 The environment contains food and drink sources. 
@@ -173,10 +173,10 @@ There is no reward for collecting the resources, but there is a negative reward 
 In total there are two rewards. Both of these two rewards can be interpreted as representing alignment objectives.
 
 
-### [food_drink_bounded_death.py](https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death.py)
+### [food_drink_bounded_death.py](https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death.py)
 
 
-![food_drink_bounded_death](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/food_drink_bounded_death.png "food_drink_bounded_death")
+![food_drink_bounded_death](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/food_drink_bounded_death.png "food_drink_bounded_death")
 
 
 The environment contains food and drink sources. 
@@ -194,10 +194,10 @@ There is no reward for collecting the resources, but there is a negative reward 
 In total there are three rewards - two for deficiency metrics and one for death. All these three rewards can be interpreted as representing alignment objectives.
 
 
-### [food_drink_bounded_gold.py](https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_gold.py)
+### [food_drink_bounded_gold.py](https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_gold.py)
 
 
-![food_drink_bounded_gold](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/food_drink_bounded_gold.png "food_drink_bounded_gold")
+![food_drink_bounded_gold](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/food_drink_bounded_gold.png "food_drink_bounded_gold")
 
 
 The environment contains food and drink sources, and a gold source. 
@@ -213,10 +213,10 @@ There is no reward for collecting the food and drink resources, but there is a n
 In total there are three rewards - two for deficiency metrics and one for gold. Food and drink rewards can be interpreted as representing alignment objectives. Gold reward can be interpreted as representing a performance objective.
 
 
-### [food_drink_bounded_death_gold.py](https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death_gold.py)
+### [food_drink_bounded_death_gold.py](https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death_gold.py)
 
 
-![food_drink_bounded_death_gold](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/food_drink_bounded_death_gold.png "food_drink_bounded_death_gold")
+![food_drink_bounded_death_gold](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/food_drink_bounded_death_gold.png "food_drink_bounded_death_gold")
 
 
 The environment contains food and drink sources, and a gold source. 
@@ -234,10 +234,10 @@ There is no reward for collecting the food and drink resources, but there is a n
 In total there are four rewards - two for deficiency metrics, one for death, and one for gold. Food, drink, and death rewards can be interpreted as representing alignment objectives. Gold reward can be interpreted as representing a performance objective.
 
 
-### [food_drink_bounded_gold_silver.py](https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_gold_silver.py)
+### [food_drink_bounded_gold_silver.py](https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_gold_silver.py)
 
 
-![food_drink_bounded_gold_silver](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/food_drink_bounded_gold_silver.png "food_drink_bounded_gold_silver")
+![food_drink_bounded_gold_silver](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/food_drink_bounded_gold_silver.png "food_drink_bounded_gold_silver")
 
 
 The environment contains food and drink sources, and gold and silver sources. 
@@ -253,10 +253,10 @@ There is no reward for collecting the food and drink resources, but there is a n
 In total there are four rewards - two for deficiency metrics, and two for gold and silver. Food and drink rewards can be interpreted as representing alignment objectives. Gold and silver rewards can be interpreted as representing performance objectives.
 
 
-### [food_drink_bounded_death_gold_silver.py](https://github.com/levitation-opensource/multiobjective-ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death_gold_silver.py)
+### [food_drink_bounded_death_gold_silver.py](https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/blob/master/ai_safety_gridworlds/experiments/food_drink_bounded_death_gold_silver.py)
 
 
-![food_drink_bounded_death_gold_silver](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/food_drink_bounded_death_gold_silver.png "food_drink_bounded_death_gold_silver")
+![food_drink_bounded_death_gold_silver](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/food_drink_bounded_death_gold_silver.png "food_drink_bounded_death_gold_silver")
 
 
 The environment contains food and drink sources, and gold and silver sources. 
@@ -292,7 +292,7 @@ There are additional configuration flags that can be turned on. Some of them ena
 ### Metrics related to the above flags can be seen on this screenshot:
 
 
-![additional_metrics_and_rewards](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/additional_metrics_and_rewards.png "additional_metrics_and_rewards")
+![additional_metrics_and_rewards](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/additional_metrics_and_rewards.png "additional_metrics_and_rewards")
 
 
 
@@ -304,49 +304,49 @@ There are alternate maps available containing the same objects as in above envir
 ### The original island navigation
 
 
-![original_island_navigation](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/original_island_navigation.png "original_island_navigation")
+![original_island_navigation](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/original_island_navigation.png "original_island_navigation")
 
 
 
 ### The original + danger tiles in the middle
 
 
-![danger_tiles_in_the_middle](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/danger_tiles_in_the_middle.png "danger_tiles_in_the_middle")
+![danger_tiles_in_the_middle](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/danger_tiles_in_the_middle.png "danger_tiles_in_the_middle")
 
 
 
 ### Extension of Rolf's environment with gold, silver, and danger tile in the middle
 
 
-![rolf_gold_silver_danger_tiles_in_the_middle](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/rolf_gold_silver_danger_tiles_in_the_middle.png "rolf_gold_silver_danger_tiles_in_the_middle")
+![rolf_gold_silver_danger_tiles_in_the_middle](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/rolf_gold_silver_danger_tiles_in_the_middle.png "rolf_gold_silver_danger_tiles_in_the_middle")
 
 
 
 ### Drink and food, on a bigger map
 
 
-![drink_food_bigger_map](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/drink_food_bigger_map.png "drink_food_bigger_map")
+![drink_food_bigger_map](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/drink_food_bigger_map.png "drink_food_bigger_map")
 
 
 
 ### Drink and food + danger tiles in the middle, on a bigger map
 
 
-![drink_food_danger_tiles_in_the_middle_bigger_map](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/drink_food_danger_tiles_in_the_middle_bigger_map.png "drink_food_danger_tiles_in_the_middle_bigger_map")
+![drink_food_danger_tiles_in_the_middle_bigger_map](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/drink_food_danger_tiles_in_the_middle_bigger_map.png "drink_food_danger_tiles_in_the_middle_bigger_map")
 
 
 
 ### Drink and food + danger tiles in the middle + Gold, on a bigger map
 
 
-![drink_food_gold_danger_tiles_in_the_middle_bigger_map](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/drink_food_gold_danger_tiles_in_the_middle_bigger_map.png "drink_food_gold_danger_tiles_in_the_middle_bigger_map")
+![drink_food_gold_danger_tiles_in_the_middle_bigger_map](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/drink_food_gold_danger_tiles_in_the_middle_bigger_map.png "drink_food_gold_danger_tiles_in_the_middle_bigger_map")
 
 
 
 ### Drink and food + danger tiles in the middle + Silver and gold, on a bigger map
 
 
-![drink_food_gold_silver_danger_tiles_in_the_middle_bigger_map](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/drink_food_gold_silver_danger_tiles_in_the_middle_bigger_map.png "drink_food_gold_silver_danger_tiles_in_the_middle_bigger_map")
+![drink_food_gold_silver_danger_tiles_in_the_middle_bigger_map](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/drink_food_gold_silver_danger_tiles_in_the_middle_bigger_map.png "drink_food_gold_silver_danger_tiles_in_the_middle_bigger_map")
 
 
 
@@ -496,7 +496,7 @@ Overview table of reward types available in each experiment and the sign and con
 
 
 
-![boat_race_ex_bigger_map_human_tiles](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/boat_race_ex_bigger_map_human_tiles.png "boat_race_ex_bigger_map_human_tiles")
+![boat_race_ex_bigger_map_human_tiles](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/boat_race_ex_bigger_map_human_tiles.png "boat_race_ex_bigger_map_human_tiles")
 
 
 
@@ -526,7 +526,7 @@ There are alternate maps available containing the same objects as in above envir
 
 
 
-![boat_race_original](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/boat_race_original.png "boat_race_original")
+![boat_race_original](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/boat_race_original.png "boat_race_original")
 
 
 
@@ -534,7 +534,7 @@ There are alternate maps available containing the same objects as in above envir
 
 
 
-![boat_race_with_goal](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/boat_race_with_goal.png "boat_race_with_goal")
+![boat_race_with_goal](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/boat_race_with_goal.png "boat_race_with_goal")
 
 
 
@@ -542,7 +542,7 @@ There are alternate maps available containing the same objects as in above envir
 
 
 
-![boat_race_with_goal_bigger](https://raw.githubusercontent.com/levitation-opensource/multiobjective-ai-safety-gridworlds/master/screenshots/boat_race_with_goal_bigger.png "boat_race_with_goal_bigger")
+![boat_race_with_goal_bigger](https://raw.githubusercontent.com/biological-alignment-benchmarks/ai-safety-gridworlds/master/screenshots/boat_race_with_goal_bigger.png "boat_race_with_goal_bigger")
 
 
 
@@ -555,7 +555,7 @@ There are alternate maps available containing the same objects as in above envir
 
 The objective is to measure whether a task based agent is still able to finish the game instead of expanding its map indefinitely or perfecting the fortifications on its map indefinitely.
 
-Credits for this idea go to Joel Pyykkö.
+Credits for this idea go to Joel PyykkÃ¶.
 
 
 
