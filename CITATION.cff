@@ -8,7 +8,7 @@ authors:
   given-names: "Joel"
   orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "From homeostasis to resource sharing: Biologically and economically aligned multi-objective multi-agent AI safety benchmarks"
-version: 0.9.0
+version: 0.9.1
 doi: 10.48550/arXiv.2410.00081
 date-released: 2024-09-30
-url: "https://github.com/aintelope/biological-compatibility-benchmarks"
+url: "https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds"
