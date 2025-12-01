@@ -4,10 +4,7 @@ authors:
 - family-names: "Pihlakas"
   given-names: "Roland"
   orcid: "https://orcid.org/0009-0006-4882-4166"
-- family-names: "Pyykkö"
-  given-names: "Joel"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "From homeostasis to resource sharing: Biologically and economically aligned multi-objective multi-agent AI safety benchmarks"
+title: "From homeostasis to resource sharing: Biologically and economically aligned multi-objective multi-agent gridworld-based AI safety benchmarks"
 version: 0.9.1
 doi: 10.48550/arXiv.2410.00081
 date-released: 2024-09-30
