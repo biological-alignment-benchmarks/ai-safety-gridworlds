@@ -84,7 +84,7 @@ Most of currently available experiment environments are described in the followi
 
 # Papers
 
-* A working paper using this repo: Pihlakas, R & Pyykkö, J. "From homeostasis to resource sharing: Biologically and economically compatible multi-objective multi-agent AI safety benchmarks". Arxiv (2024). https://arxiv.org/abs/2410.00081 (See also https://github.com/biological-alignment-benchmarks/biological-alignment-gridworlds-benchmarks)
+* A working paper using this repo: Roland Pihlakas. "From homeostasis to resource sharing: Biologically and economically aligned multi-objective multi-agent gridworld-based AI safety benchmarks". September 2024. https://arxiv.org/abs/2410.00081 (See also https://github.com/biological-alignment-benchmarks/biological-alignment-gridworlds-benchmarks)
 * A published research paper based on experiments using this repository: Smith, B.J., Klassert, R. & Pihlakas, R. "Using soft maximin for risk averse multi-objective decision-making". Autonomous Agents and Multi-Agent Systems 37, Article 11 (2023). https://link.springer.com/article/10.1007/s10458-022-09586-2
 
 
