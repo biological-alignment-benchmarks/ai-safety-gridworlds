@@ -117,6 +117,6 @@ This project is licensed under the Apache-2.0 license - see the [LICENSE](LICENS
 
 **Attribution Requirement**: If you use this library, please cite the source as follows:
 
-Roland Pihlakas and Joel Pyykkö. From homeostasis to resource sharing: Biologically and economically aligned multi-objective multi-agent AI safety benchmarks. Arxiv, a working paper, September 2024 (https://arxiv.org/abs/2410.00081).
+Roland Pihlakas. From homeostasis to resource sharing: Biologically and economically aligned multi-objective multi-agent gridworld-based AI safety benchmarks. Arxiv, a working paper, September 2024 (https://arxiv.org/abs/2410.00081).
 
 
