@@ -74,6 +74,7 @@ Most of currently available experiment environments are described in the followi
 
 # Related work
 
+* **From homeostasis to resource sharing: Biologically and economically aligned multi-objective multi-agent AI safety benchmarks** - An agent training framework using the current repo for as a framework for building its benchmark environments. https://github.com/biological-alignment-benchmarks/biological-alignment-gridworlds-benchmarks
 * **BioBlue: Biologically and economically aligned AI safety benchmarks for LLM-s with simplified observation format** (Roland Pihlakas, Shruti Datta Gupta, Sruthi Kuriakose 2025) [repo](https://github.com/biological-alignment-benchmarks/bioblue) and [PDF report](https://github.com/biological-alignment-benchmarks/bioblue/blob/main/BioBlue%20-%20Biologically%20and%20economically%20aligned%20AI%20safety%20benchmarks%20for%20LLMs.pdf)
 * **Notable runaway-optimiser-like LLM failure modes on Biologically and Economically aligned AI safety benchmarks for LLMs with simplified observation format** https://www.lesswrong.com/posts/PejNckwQj3A2MGhMA/notable-runaway-optimiser-like-llm-failure-modes-on
 * **Zoo to Gym Multi-Agent Adapter** - Enables you to convert a PettingZoo environment to a Gym environment while supporting multiple agents (MARL). Gym's default setup doesn't easily support multi-agent environments, but this wrapper resolves that by running each agent in its own process and sharing the environment across those processes. https://github.com/biological-alignment-benchmarks/zoo_to_gym_multiagent_adapter
