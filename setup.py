@@ -25,7 +25,7 @@ else:
 
 setuptools.setup(
     name="ai-safety-gridworlds",
-    version="4.0.0.2",
+    version="4.0.0.3",
     description="Extended, multi-agent and multi-objective environments based on DeepMind's "
         "AI Safety Gridworlds. This is a suite of reinforcement learning "
         "environments illustrating various safety properties of intelligent agents.",
@@ -83,7 +83,7 @@ setuptools.setup(
         "packaging==25.0",
         "pettingzoo==1.24.1",
         "pillow==11.2.1",
-        "pyyaml==6.0",
+        "pyyaml==6.0.2",
         "toml==0.10.2",
         # "pycolab", 
     ] + enum + windows_curses,
