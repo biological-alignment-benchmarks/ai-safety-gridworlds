@@ -25,7 +25,7 @@ else:
 
 setuptools.setup(
     name="ai-safety-gridworlds",
-    version="4.0.0.3",
+    version="4.0.0.4",
     description="Extended, multi-agent and multi-objective environments based on DeepMind's "
         "AI Safety Gridworlds. This is a suite of reinforcement learning "
         "environments illustrating various safety properties of intelligent agents.",
@@ -76,15 +76,15 @@ setuptools.setup(
         "rl "
     ),
     install_requires=[
-        "absl-py==2.2.2", 
-        "gym==0.26.2",    # If the user wants, they can manually install Gymnasium instead and then we will automatically use this newer package instead. Gym is needed as a fallback. Installation of Gymnasium is not forced in order to not override existing Gym installation, since Gymnasium would have priority during execution.
-        "matplotlib==3.7.0",
-        "numpy==1.26.4", 
-        "packaging==25.0",
-        "pettingzoo==1.24.1",
-        "pillow==11.2.1",
-        "pyyaml==6.0.2",
-        "toml==0.10.2",
+        "absl-py", 
+        "gym",    # If the user wants, they can manually install Gymnasium instead and then we will automatically use this newer package instead. Gym is needed as a fallback. Installation of Gymnasium is not forced in order to not override existing Gym installation, since Gymnasium would have priority during execution.
+        "matplotlib",
+        "numpy", 
+        "packaging",
+        "pettingzoo",
+        "pillow",
+        "pyyaml",
+        "toml",
         # "pycolab", 
     ] + enum + windows_curses,
     packages=setuptools.find_packages(),
