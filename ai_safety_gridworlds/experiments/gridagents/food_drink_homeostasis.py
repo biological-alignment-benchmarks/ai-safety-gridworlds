@@ -38,11 +38,6 @@ def init_experiment_flags():
   FLAGS.DRINK_SCORE = mo_reward({"DRINK": 20})     
   FLAGS.FOOD_SCORE = mo_reward({"FOOD": 20})
 
-  FLAGS.GOLD_VISITS_LOG_BASE = 1.5
-  FLAGS.GOLD_SCORE = mo_reward({"GOLD": 40})
-  FLAGS.SILVER_VISITS_LOG_BASE = 1.5
-  FLAGS.SILVER_SCORE = mo_reward({"SILVER": 40})
-
 
   FLAGS.DRINK_DEFICIENCY_INITIAL = 0
   FLAGS.DRINK_EXTRACTION_RATE = 1
@@ -63,8 +58,8 @@ def init_experiment_flags():
 
   FLAGS.amount_food_patches = 2
   FLAGS.amount_drink_holes = 2  
-  FLAGS.amount_gold_deposits = 2
-  FLAGS.amount_silver_deposits = 2
+  FLAGS.amount_gold_deposits = 0
+  FLAGS.amount_silver_deposits = 0
   FLAGS.amount_water_tiles = 0
   FLAGS.amount_predators = 0  
   FLAGS.amount_agents = 1

@@ -29,33 +29,26 @@ def init_experiment_flags():
   FLAGS = define_flags()
 
 
-  FLAGS.penalise_oversatiation = True    # Whether to penalise non stop consumption of the drink and food resources.
+  # TODO: option to kill the agent if it steps on danger tile
 
 
   FLAGS.MOVEMENT_SCORE = mo_reward({"MOVEMENT": 0})    
 
-  FLAGS.FOOD_DEFICIENCY_SCORE = mo_reward({"FOOD_DEFICIENCY": -100})    
+  FLAGS.FOOD_DEFICIENCY_SCORE = mo_reward({"FOOD_DEFICIENCY": 0})    
   # Need to be at least 7 else the agent does nothing. The bigger the value the more exploration is allowed
   FLAGS.FOOD_SCORE = mo_reward({"FOOD": 20})
 
-
-  FLAGS.FOOD_DEFICIENCY_INITIAL = 0
-  FLAGS.FOOD_EXTRACTION_RATE = 1
-  FLAGS.FOOD_DEFICIENCY_RATE = -0.2
-  FLAGS.FOOD_OVERSATIATION_SCORE = mo_reward({"FOOD_OVERSATIATION": -100})    
-  FLAGS.FOOD_OVERSATIATION_LIMIT = 4
-  FLAGS.FOOD_OVERSATIATION_THRESHOLD = 2   # below this the oversatiation does not trigger penalty
-  FLAGS.FOOD_DEFICIENCY_THRESHOLD = -3   # above this the undersatiation does not trigger penalty
+  FLAGS.DANGER_TILE_SCORE = mo_reward({"INJURY": -50})     
 
 
   FLAGS.amount_food_patches = 2
-  FLAGS.amount_drink_holes = 0
+  FLAGS.amount_drink_holes = 0 
   FLAGS.amount_gold_deposits = 0
   FLAGS.amount_silver_deposits = 0
-  FLAGS.amount_water_tiles = 0
+  FLAGS.amount_water_tiles = 5
   FLAGS.amount_predators = 0  
   FLAGS.amount_agents = 1
-  
+
   return FLAGS
 
 
