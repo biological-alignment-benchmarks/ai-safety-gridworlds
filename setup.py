@@ -25,7 +25,7 @@ else:
 
 setuptools.setup(
     name="ai-safety-gridworlds",
-    version="4.0.0.4",
+    version="4.0.1.0",
     description="Extended, multi-agent and multi-objective environments based on DeepMind's "
         "AI Safety Gridworlds. This is a suite of reinforcement learning "
         "environments illustrating various safety properties of intelligent agents.",

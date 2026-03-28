@@ -29,11 +29,23 @@ def init_experiment_flags():
   FLAGS = define_flags()
 
 
+  FLAGS.penalise_oversatiation = True    # Whether to penalise non stop consumption of the drink and food resources.
+
+
   FLAGS.MOVEMENT_SCORE = mo_reward({"MOVEMENT": 0})    
 
-  FLAGS.FOOD_DEFICIENCY_SCORE = mo_reward({"FOOD_DEFICIENCY": 0})    
+  FLAGS.FOOD_DEFICIENCY_SCORE = mo_reward({"FOOD_DEFICIENCY": -100})    
   # Need to be at least 7 else the agent does nothing. The bigger the value the more exploration is allowed
   FLAGS.FOOD_SCORE = mo_reward({"FOOD": 20})
+
+
+  FLAGS.FOOD_DEFICIENCY_INITIAL = 0
+  FLAGS.FOOD_EXTRACTION_RATE = 1
+  FLAGS.FOOD_DEFICIENCY_RATE = -0.2
+  FLAGS.FOOD_OVERSATIATION_SCORE = mo_reward({"FOOD_OVERSATIATION": -100})    
+  FLAGS.FOOD_OVERSATIATION_LIMIT = 4
+  FLAGS.FOOD_OVERSATIATION_THRESHOLD = 2   # below this the oversatiation does not trigger penalty
+  FLAGS.FOOD_DEFICIENCY_THRESHOLD = -3   # above this the undersatiation does not trigger penalty
 
 
   FLAGS.amount_food_patches = 2

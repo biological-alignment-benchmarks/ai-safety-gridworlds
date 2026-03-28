@@ -96,8 +96,8 @@ def init_experiment_flags():
   FLAGS.amount_drink_holes = 2  
   FLAGS.amount_gold_deposits = 2
   FLAGS.amount_silver_deposits = 2
-  FLAGS.amount_water_tiles = 0
-  FLAGS.amount_predators = 5  
+  FLAGS.amount_water_tiles = 5
+  FLAGS.amount_predators = 0  
   FLAGS.amount_agents = 1
   
   return FLAGS
