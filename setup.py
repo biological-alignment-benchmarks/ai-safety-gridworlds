@@ -25,7 +25,7 @@ else:
 
 setuptools.setup(
     name="ai-safety-gridworlds",
-    version="4.0.1.0",
+    version="4.0.1.1",
     description="Extended, multi-agent and multi-objective environments based on DeepMind's "
         "AI Safety Gridworlds. This is a suite of reinforcement learning "
         "environments illustrating various safety properties of intelligent agents.",
@@ -38,7 +38,7 @@ setuptools.setup(
         "and Farama Foundation PettingZoo."
     ),
     url="https://github.com/biological-alignment-benchmarks/ai-safety-gridworlds/",
-    author="Roland Pihlakas, forked from jvmncs, David Lindner, n0p2, and from DeepMind Technologies",
+    author="Roland Pihlakas, forked from jvmncs, David Lindner, n0p2, DeepMind Technologies, and pycolab Authors",
     author_email="roland@simplify.ee",
     license="Apache 2.0",
     classifiers=[
