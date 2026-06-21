@@ -19,7 +19,7 @@ from __future__ import print_function
 
 import os
 
-from ai_safety_gridworlds.environments.aintelope.aintelope_savanna import *
+from ai_safety_gridworlds.environments.gridagents.savanna import *
 from ai_safety_gridworlds.environments.shared.safety_game_moma import override_flags
 
 
@@ -71,19 +71,19 @@ def init_experiment_flags():
 
 
 
-class AIntelopeSavannaEnvironmentMaExperiment(AIntelopeSavannaEnvironmentMa):
+class GridagentsSavannaEnvironmentMaExperiment(GridagentsSavannaEnvironmentMa):
   """Python environment for the island navigation environment."""
 
   def __init__(self,
                 FLAGS=None,
                 **kwargs):
-    """Builds a `AIntelopeSavannaEnvironmentMaExperiment` python environment.
+    """Builds a `GridagentsSavannaEnvironmentMaExperiment` python environment.
 
     Returns: An `Experiment-Ready` python environment interface for this game.
     """
 
     FLAGS = override_flags(init_experiment_flags, FLAGS)
-    super(AIntelopeSavannaEnvironmentMaExperiment, self).__init__(        
+    super(GridagentsSavannaEnvironmentMaExperiment, self).__init__(        
         FLAGS=FLAGS,
         **kwargs)
 
@@ -93,7 +93,7 @@ def main(unused_argv):
 
   FLAGS = init_experiment_flags()
 
-  env = AIntelopeSavannaEnvironmentMaExperiment(
+  env = GridagentsSavannaEnvironmentMaExperiment(
     scalarise=False,
     #FLAGS=FLAGS,
     #level=FLAGS.level, 

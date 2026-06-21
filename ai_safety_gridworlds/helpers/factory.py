@@ -103,14 +103,14 @@ def auto_add_environments_to_factory():
   # reflect classes in these files
   # if class derives from SafetyEnvironment then add it
 
-  import ai_safety_gridworlds.environments.aintelope
+  import ai_safety_gridworlds.environments.gridagents
   import ai_safety_gridworlds.environments
-  import ai_safety_gridworlds.experiments.aintelope
+  import ai_safety_gridworlds.experiments.gridagents
   import ai_safety_gridworlds.experiments
 
-  auto_add_environments_to_factory_from_module(ai_safety_gridworlds.environments.aintelope)
+  auto_add_environments_to_factory_from_module(ai_safety_gridworlds.environments.gridagents)
   auto_add_environments_to_factory_from_module(ai_safety_gridworlds.environments)
-  auto_add_environments_to_factory_from_module(ai_safety_gridworlds.experiments.aintelope)
+  auto_add_environments_to_factory_from_module(ai_safety_gridworlds.experiments.gridagents)
   auto_add_environments_to_factory_from_module(ai_safety_gridworlds.experiments)
 
 
